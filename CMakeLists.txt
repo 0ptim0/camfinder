@@ -8,8 +8,8 @@ include_directories(
     /usr/local/include/opencv4
 )
 
-set(FACE_DETECTION_CONFIGURATION "${PROJECT_SOURCE_DIR}/assets/deploy.prototxt")
-set(FACE_DETECTION_WEIGHTS "${PROJECT_SOURCE_DIR}/assets/res10_300x300_ssd_iter_140000_fp16.caffemodel")
+set(FACE_DETECTION_CONFIGURATION "${PROJECT_SOURCE_DIR}/assets/face_detection/deploy.prototxt")
+set(FACE_DETECTION_WEIGHTS "${PROJECT_SOURCE_DIR}/assets/face_detection/res10_300x300_ssd_iter_140000_fp16.caffemodel")
 
 
 file(GLOB SRC
